@@ -14,7 +14,7 @@ $d = mysqli_fetch_object($query);
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width-device-width, initial-scale=1">
-  <title>DAFFA OUTDOOR STORE</title>
+  <title>TOREAN OUTDOOR STORE</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -22,7 +22,7 @@ $d = mysqli_fetch_object($query);
   <!-- Header -->
   <header>
     <div class="container">
-      <h1><a href="dashboard.php">Daffa Outdoor</a></h1>
+      <h1><a href="dashboard.php">Torean Outdoor</a></h1>
       <ul>
         <li><a href="dashboard.php">Dashboard</a></li>
         <li><a href="profil.php">Profil</a></li>

@@ -10,7 +10,7 @@ if ($_SESSION['status_login'] != true) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width-device-width, initial-scale=1">
-  <title>DAFFA OUTDOOR STORE</title>
+  <title>TOREAN OUTDOOR STORE</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -18,7 +18,7 @@ if ($_SESSION['status_login'] != true) {
   <!-- Header -->
   <header>
     <div class="container">
-      <h1><a href="dashboard.php">Daffa Outdoor</a></h1>
+      <h1><a href="dashboard.php">Torean Outdoor</a></h1>
       <ul>
         <li><a href="dashboard.php">Dashboard</a></li>
         <li><a href="profil.php">Profil</a></li>
@@ -34,7 +34,7 @@ if ($_SESSION['status_login'] != true) {
     <div class="container">
       <h3>Dashboard</h3>
       <div class="box">
-        <h4>Selamat Datang <?php echo $_SESSION['a_global']->admin_name ?> di DAFFA OUTDOOR</h4>
+        <h4>Selamat Datang <?php echo $_SESSION['a_global']->admin_name ?> di TOREAN STORE</h4>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ if ($_SESSION['status_login'] != true) {
   <!-- Footer -->
   <footer>
     <div class="container">
-      <small>Copyright &copy; 2022 - Toko Gaul.</small>
+      <small>Copyright &copy; 2022 - Torean Outdoor Store.</small>
     </div>
   </footer>
 </body>
