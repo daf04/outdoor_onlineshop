@@ -6,6 +6,9 @@ if ($_SESSION['status_login'] != true) {
 }
 
 $produk = mysqli_query($conn, "SELECT * FROM tb_product WHERE product_id = '" . $_GET['id'] . "' ");
+if (mysqli_num_rows($produk) == 0) {
+  echo '<script>window.location="data-produk.php"</script>';
+}
 $p = mysqli_fetch_object($produk);
 ?>
 <!DOCTYPE html>
