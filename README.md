@@ -1,2 +1,3 @@
-# uaswp_1904030109
-Dalam pengumpulan tugas Ujian Akhir Semester Web Programming 5A
+# outdoor_onlineshop
+Toko Online Outdoor Sederhana.
+Menggunakan bahasa pemrograman PHP, Html, dan CSS.
